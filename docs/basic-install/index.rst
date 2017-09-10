@@ -62,6 +62,12 @@ Windows:
 .. code-block:: bash
 
   pip install -r requirements.txt
+  
+If error "[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed" encountered:
+
+.. code-block:: bash
+  
+   pip install --trusted-host pypi.python.org -r requirements.txt
 
 Linux/OSX:
 
